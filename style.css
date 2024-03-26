@@ -103,12 +103,14 @@ a:hover {
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+  z-index: 2;
 }
 
 .menu-links a {
   display: block;
   padding: 10px;
   text-align: center;
+  /* font-size: 1.5rem; */
   font-size: 1.5rem;
   color: black;
   text-decoration: none;
@@ -409,6 +411,7 @@ article .icon {
 
 #projects {
   position: relative;
+  height: 100%;
 }
 
 .projects-choice {
@@ -453,10 +456,11 @@ article .icon {
 
 .projects-container {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 .color-container {
@@ -517,6 +521,7 @@ article .icon {
   justify-content: center;
   gap: 0.5rem;
   margin: 1rem;
+  width: 100%;
 }
 
 .contact-info-container p {

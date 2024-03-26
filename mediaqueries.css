@@ -55,7 +55,27 @@
   #profile {
     height: 83vh;
     margin-bottom: 0;
+
   }
+
+  .menu-links {
+    width: 95px;
+  }
+  .menu-links a {
+    font-size: 1rem;
+  }
+
+  .section__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+  }
+
+  .about-containers {
+    flex-direction: column;
+  }
+
   article {
     font-size: 1rem;
   }
@@ -64,12 +84,17 @@
     margin-bottom: 2rem;
   }
   .about-containers,
-  .contact-info-upper-container,
+  /* .contact-info-upper-container, */
   .btn-container {
     flex-wrap: wrap;
   }
+  .contact-info-upper-container {
+    flex-direction: column;
+
+  }
   .contact-info-container {
-    margin: 0;
+    /* margin: 0; */
+    justify-content: flex-start;
   }
   .contact-info-container p,
   .nav-links li a {
@@ -98,6 +123,30 @@
     font-size: 2rem;
   }
   .text-container {
-    text-align: justify;
+    /* text-align: justify; */
   }
+
+  .project-title {
+    font-size: 1.1rem;
+    margin: 2rem 0;
+  }
+
+  .project-article-container  article{
+    width: 1rem;
+  }
+
+  .section__pic-container {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .section__pic-container img {
+    object-position: top 0.4rem right -0.1rem;
+
+  }
+
+}
+
+@media screen and (max-width:477px) {
+  
 }
